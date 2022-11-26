@@ -3,7 +3,6 @@ import asyncio
 import aiofiles
 
 
-
 async def get_ranges():
 	async with aiofiles.open('ranges.txt', 'r') as f:
 		lines = await f.readlines()
