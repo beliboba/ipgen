@@ -1,6 +1,7 @@
+from ipaddress import ip_address
 import asyncio
 import aiofiles
-from ipaddress import ip_address
+
 
 
 async def get_ranges():
